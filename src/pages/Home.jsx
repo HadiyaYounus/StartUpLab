@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import Stats from "../components/Stats";
 import Categories from "../components/Categories";
-import FeaturedStartups from "../components/FeaturedStartups";
+import FeaturedStartUps from "../components/FeaturedStartUps";
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
       <Hero />
       <Stats />
       <Categories />
-      <FeaturedStartups />
+      <FeaturedStartUps />
     </>
   );
 }

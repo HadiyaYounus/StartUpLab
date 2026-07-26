@@ -1,18 +1,18 @@
-import startups from "../data/startups.json";
-import StartupCard from "./StartupCard";
+import startups from "../data/StartUps.json";
+import StartUpCard from "./StartUpCard";
 
-function FeaturedStartups() {
+function FeaturedStartUps() {
   return (
     <section className="py-16">
       <div className="max-w-7xl mx-auto px-6">
 
         <h2 className="text-3xl font-bold mb-8">
-          Featured Startups
+          Featured StartUps
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6">
           {startups.map((startup) => (
-            <StartupCard
+            <StartUpCard
               key={startup.id}
               startup={startup}
             />
@@ -24,4 +24,4 @@ function FeaturedStartups() {
   );
 }
 
-export default FeaturedStartups;
+export default FeaturedStartUps;

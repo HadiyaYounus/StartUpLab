@@ -1,7 +1,7 @@
 import { useState } from "react";
-import startups from "../data/startups.json";
+import startups from "../data/StartUps.json";
 import StartUpCard from "../components/StartUpCard";
-import SearchBar from "../components/SearchBar";
+import Searchbar from "../components/Searchbar";
 
 function StartUps() {
   const [search, setSearch] = useState("");
@@ -15,10 +15,10 @@ function StartUps() {
       <div className="max-w-7xl mx-auto px-6">
 
         <h1 className="text-4xl font-bold mb-8">
-          All Startups
+          All StartUps
         </h1>
 
-        <SearchBar
+        <Searchbar
           search={search}
           setSearch={setSearch}
         />
