@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "NovaTech",
+    "category": "AI & Technology",
+    "description": "Building smart solutions with modern technology.",
+    "founder": "Ayesha Khan",
+    "location": "Pakistan"
+  },
+  {
+    "id": 2,
+    "name": "PayFlow",
+    "category": "FinTech",
+    "description": "Digital payment solutions for businesses.",
+    "founder": "Ahmed Ali",
+    "location": "UAE"
+  },
+  {
+    "id": 3,
+    "name": "HealthBridge",
+    "category": "Healthcare",
+    "description": "Making healthcare services easier and accessible.",
+    "founder": "Sara Malik",
+    "location": "UK"
+  },
+  {
+    "id": 4,
+    "name": "LearnSphere",
+    "category": "Education",
+    "description": "Online learning platform for students.",
+    "founder": "Hassan Raza",
+    "location": "Pakistan"
+  },
+  {
+    "id": 5,
+    "name": "ShopNext",
+    "category": "E-Commerce",
+    "description": "A modern marketplace for online shopping.",
+    "founder": "Emily Brown",
+    "location": "Canada"
+  },
+  {
+    "id": 6,
+    "name": "TravelMate",
+    "category": "Travel",
+    "description": "Smart travel planning experience.",
+    "founder": "David Wilson",
+    "location": "Germany"
+  }
+]
